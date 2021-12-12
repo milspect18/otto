@@ -9,9 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Otto")
-            .font(.largeTitle)
-            .foregroundColor(Color("MainText"))
+        TabView {
+            Text("Primary Map View")
+                .font(.largeTitle)
+                .foregroundColor(Color("MainText"))
+                .tabItem { Image(systemName: "map") }
+                
+            
+            Text("Primary Audio View")
+                .font(.largeTitle)
+                .foregroundColor(Color("MainText"))
+                .tabItem { Image(systemName: "music.note.list") }
+            
+            Text("Split View")
+                .font(.largeTitle)
+                .foregroundColor(Color("MainText"))
+                .tabItem { Image(systemName: "square.split.2x1") }
+        }
+        .accentColor(Color("MainText"))
     }
 }
 
