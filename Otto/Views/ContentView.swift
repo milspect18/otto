@@ -10,20 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Primary Map View")
-                .font(.largeTitle)
-                .foregroundColor(.mainText)
+            MapView()
                 .tabItem { Image(systemName: "map") }
                 
             
-            Text("Primary Audio View")
-                .font(.largeTitle)
-                .foregroundColor(.mainText)
+            AudioView()
                 .tabItem { Image(systemName: "music.note.list") }
             
-            Text("Split View")
-                .font(.largeTitle)
-                .foregroundColor(.mainText)
+            SplitView()
                 .tabItem { Image(systemName: "square.split.2x1") }
         }
         .accentColor(.tabBarItem)

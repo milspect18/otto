@@ -17,6 +17,9 @@
 		E3322CA927667D68001783BE /* OttoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CA827667D68001783BE /* OttoUITests.swift */; };
 		E3322CAB27667D68001783BE /* OttoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CAA27667D68001783BE /* OttoUITestsLaunchTests.swift */; };
 		E3322CC027669A5C001783BE /* OttoColors.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CBF27669A5C001783BE /* OttoColors.swift.swift */; };
+		E3322CC22766ACA7001783BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CC12766ACA7001783BE /* MapView.swift */; };
+		E3322CC42766ACE1001783BE /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CC32766ACE1001783BE /* AudioView.swift */; };
+		E3322CC92766AD2B001783BE /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CC82766AD2B001783BE /* SplitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		E3322CA827667D68001783BE /* OttoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoUITests.swift; sourceTree = "<group>"; };
 		E3322CAA27667D68001783BE /* OttoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3322CBF27669A5C001783BE /* OttoColors.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoColors.swift.swift; sourceTree = "<group>"; };
+		E3322CC12766ACA7001783BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E3322CC32766ACE1001783BE /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		E3322CC82766AD2B001783BE /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,9 @@
 		E3322CBB27667DB7001783BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E3322CC72766AD1B001783BE /* SplitView */,
+				E3322CC62766AD0C001783BE /* AudioView */,
+				E3322CC52766AD04001783BE /* MapView */,
 				E3322C8A27667D67001783BE /* ContentView.swift */,
 			);
 			path = Views;
@@ -182,6 +191,30 @@
 				E3322CBF27669A5C001783BE /* OttoColors.swift.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3322CC52766AD04001783BE /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				E3322CC12766ACA7001783BE /* MapView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		E3322CC62766AD0C001783BE /* AudioView */ = {
+			isa = PBXGroup;
+			children = (
+				E3322CC32766ACE1001783BE /* AudioView.swift */,
+			);
+			path = AudioView;
+			sourceTree = "<group>";
+		};
+		E3322CC72766AD1B001783BE /* SplitView */ = {
+			isa = PBXGroup;
+			children = (
+				E3322CC82766AD2B001783BE /* SplitView.swift */,
+			);
+			path = SplitView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,10 +348,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3322C9227667D68001783BE /* Persistence.swift in Sources */,
+				E3322CC92766AD2B001783BE /* SplitView.swift in Sources */,
+				E3322CC22766ACA7001783BE /* MapView.swift in Sources */,
 				E3322C8B27667D67001783BE /* ContentView.swift in Sources */,
 				E3322CC027669A5C001783BE /* OttoColors.swift.swift in Sources */,
 				E3322C8927667D67001783BE /* OttoApp.swift in Sources */,
 				E3322C9527667D68001783BE /* Otto.xcdatamodeld in Sources */,
+				E3322CC42766ACE1001783BE /* AudioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
