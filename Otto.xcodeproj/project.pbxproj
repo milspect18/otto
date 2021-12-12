@@ -98,11 +98,12 @@
 		E3322C8727667D67001783BE /* Otto */ = {
 			isa = PBXGroup;
 			children = (
-				E3322C8827667D67001783BE /* OttoApp.swift */,
-				E3322C8A27667D67001783BE /* ContentView.swift */,
-				E3322C8C27667D68001783BE /* Assets.xcassets */,
-				E3322C9127667D68001783BE /* Persistence.swift */,
-				E3322C9327667D68001783BE /* Otto.xcdatamodeld */,
+				E3322CBC27667DD1001783BE /* Resources */,
+				E3322CBB27667DB7001783BE /* Views */,
+				E3322CBA27667DB2001783BE /* App */,
+				E3322CB927667DAC001783BE /* Service */,
+				E3322CB827667DA5001783BE /* Repository */,
+				E3322CB727667D9F001783BE /* Model */,
 				E3322C8E27667D68001783BE /* Preview Content */,
 			);
 			path = Otto;
@@ -131,6 +132,53 @@
 				E3322CAA27667D68001783BE /* OttoUITestsLaunchTests.swift */,
 			);
 			path = OttoUITests;
+			sourceTree = "<group>";
+		};
+		E3322CB727667D9F001783BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3322C9327667D68001783BE /* Otto.xcdatamodeld */,
+				E3322C9127667D68001783BE /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3322CB827667DA5001783BE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E3322CB927667DAC001783BE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E3322CBA27667DB2001783BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E3322C8827667D67001783BE /* OttoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E3322CBB27667DB7001783BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3322C8A27667D67001783BE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3322CBC27667DD1001783BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3322C8C27667D68001783BE /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,8 +481,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,8 +512,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
