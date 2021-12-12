@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MapView: View {
+    @State private var vm: MapViewModel
+    
+    init(viewModel: MapViewModel = MapViewModel()) {
+        self.vm = viewModel
+    }
+    
     var body: some View {
-        Text("Map View")
-            .font(.largeTitle)
-            .foregroundColor(.mainText)
+        Map(coordinateRegion: $vm.region)
     }
 }
 

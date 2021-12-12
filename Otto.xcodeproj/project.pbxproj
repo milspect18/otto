@@ -20,6 +20,7 @@
 		E3322CC22766ACA7001783BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CC12766ACA7001783BE /* MapView.swift */; };
 		E3322CC42766ACE1001783BE /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CC32766ACE1001783BE /* AudioView.swift */; };
 		E3322CC92766AD2B001783BE /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CC82766AD2B001783BE /* SplitView.swift */; };
+		E3322CCB2766AFCE001783BE /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CCA2766AFCE001783BE /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		E3322CC12766ACA7001783BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E3322CC32766ACE1001783BE /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
 		E3322CC82766AD2B001783BE /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		E3322CCA2766AFCE001783BE /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				E3322CC12766ACA7001783BE /* MapView.swift */,
+				E3322CCA2766AFCE001783BE /* MapViewModel.swift */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				E3322C8927667D67001783BE /* OttoApp.swift in Sources */,
 				E3322C9527667D68001783BE /* Otto.xcdatamodeld in Sources */,
 				E3322CC42766ACE1001783BE /* AudioView.swift in Sources */,
+				E3322CCB2766AFCE001783BE /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
