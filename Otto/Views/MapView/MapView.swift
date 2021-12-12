@@ -16,7 +16,11 @@ struct MapView: View {
     }
     
     var body: some View {
-        Map(coordinateRegion: $vm.region)
+        Map(
+            coordinateRegion: $vm.region,
+            interactionModes: .all,
+            showsUserLocation: true
+        )
     }
 }
 
