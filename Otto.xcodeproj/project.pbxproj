@@ -16,6 +16,7 @@
 		E3322C9F27667D68001783BE /* OttoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322C9E27667D68001783BE /* OttoTests.swift */; };
 		E3322CA927667D68001783BE /* OttoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CA827667D68001783BE /* OttoUITests.swift */; };
 		E3322CAB27667D68001783BE /* OttoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CAA27667D68001783BE /* OttoUITestsLaunchTests.swift */; };
+		E3322CC027669A5C001783BE /* OttoColors.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3322CBF27669A5C001783BE /* OttoColors.swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E3322CA427667D68001783BE /* OttoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OttoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3322CA827667D68001783BE /* OttoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoUITests.swift; sourceTree = "<group>"; };
 		E3322CAA27667D68001783BE /* OttoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3322CBF27669A5C001783BE /* OttoColors.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoColors.swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				E3322C8C27667D68001783BE /* Assets.xcassets */,
+				E3322CBF27669A5C001783BE /* OttoColors.swift.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			files = (
 				E3322C9227667D68001783BE /* Persistence.swift in Sources */,
 				E3322C8B27667D67001783BE /* ContentView.swift in Sources */,
+				E3322CC027669A5C001783BE /* OttoColors.swift.swift in Sources */,
 				E3322C8927667D67001783BE /* OttoApp.swift in Sources */,
 				E3322C9527667D68001783BE /* Otto.xcdatamodeld in Sources */,
 			);

@@ -12,21 +12,21 @@ struct ContentView: View {
         TabView {
             Text("Primary Map View")
                 .font(.largeTitle)
-                .foregroundColor(Color("MainText"))
+                .foregroundColor(.mainText)
                 .tabItem { Image(systemName: "map") }
                 
             
             Text("Primary Audio View")
                 .font(.largeTitle)
-                .foregroundColor(Color("MainText"))
+                .foregroundColor(.mainText)
                 .tabItem { Image(systemName: "music.note.list") }
             
             Text("Split View")
                 .font(.largeTitle)
-                .foregroundColor(Color("MainText"))
+                .foregroundColor(.mainText)
                 .tabItem { Image(systemName: "square.split.2x1") }
         }
-        .accentColor(Color("MainText"))
+        .accentColor(.tabBarItem)
     }
 }
 
