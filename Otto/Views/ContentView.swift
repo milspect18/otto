@@ -10,15 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            SplitView()
+                .tabItem { Image(systemName: "square.split.2x1") }
+            
             MapView()
                 .tabItem { Image(systemName: "map") }
                 
             
             AudioView()
                 .tabItem { Image(systemName: "music.note.list") }
-            
-            SplitView()
-                .tabItem { Image(systemName: "square.split.2x1") }
         }
         .accentColor(.tabBarItem)
     }
